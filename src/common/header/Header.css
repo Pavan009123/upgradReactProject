@@ -1,0 +1,31 @@
+.header {
+    padding: 8px 32px 8px 16px;
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+}
+
+.logo {
+    background: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite;
+    animation-timing-function: linear;
+}
+
+.center {
+  display: grid;
+}
+
+.button {
+    margin-left: 8px !important;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+}
